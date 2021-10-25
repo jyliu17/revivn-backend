@@ -20,15 +20,15 @@ Ticket.create(
     description: "Pickup 20 Macs",
     date: "2021-10-26",
     location: "6th ave",
-    status: "pending",
+    status: "Picked Up",
     employee: "Jason",
     email: "steve@apple.com"
 )
 Ticket.create(
     description: "Pickup 20 Laptops",
-    date: "2021-10-28",
+    date: "2021-10-21",
     location: "5th ave",
-    status: "pending",
+    status: "Arrived",
     employee: "Brian",
     email: "steve@apple.com"
 )
