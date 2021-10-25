@@ -29,6 +29,8 @@ ActiveRecord::Schema.define(version: 2021_10_24_215758) do
     t.string "last_name"
     t.string "email"
     t.integer "phone_number"
+    t.string "password_digest"
+    t.boolean "is_admin"
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
   end
@@ -37,8 +39,9 @@ ActiveRecord::Schema.define(version: 2021_10_24_215758) do
     t.string "description"
     t.string "date"
     t.string "location"
-    t.integer "status"
+    t.string "status"
     t.string "employee"
+    t.string "email"
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
   end

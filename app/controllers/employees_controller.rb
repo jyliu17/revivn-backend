@@ -1,34 +1,34 @@
 class EmployeesController < ApplicationController
 
     def index
-        users = User.all
-        render json: users
+        employees = Employee.all
+        render json: employees
     end
 
     def create
-        user = User.create(user_params)
-        render json: user
+        employee = Employee.create(employee_params)
+        render json: employee
     end
 
     def show
-        user = User.find(params[:id])
-        render json: user
+        employee = Employee.find(params[:id])
+        render json: employee
     end
 
     # def update
-    #     user = User.find(params[:id])
-    #     user.update(user_params)
-    #     render json: user
+    #     employee = Employee.find(params[:id])
+    #     employee.update(employee_params)
+    #     render json: employee
     # end
 
     # def destroy
-    #     user = User.find(params[:id])
-    #     user.destroy
-    #     render json: user
+    #     employee = Employee.find(params[:id])
+    #     employee.destroy
+    #     render json: employee
     # end
 
     private
-    def user_params
+    def employee_params
 
     params.permit(:firstname, :lastname, :email, :phone_number, :password, :is_admin)
     end

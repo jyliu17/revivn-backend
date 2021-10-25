@@ -24,16 +24,10 @@ class TicketsController < ApplicationController
     end
 
 
-    # def destroy
-    #     ticket = Ticket.find(params[:id])
-    #     ticket.destroy
-    #     render json: ticket
-    # end
-
     private
     def ticket_params
 
-    params.permit(:id, :description, :date, :location, :status, :employee)
+    params.require(:ticket).permit(:id, :description, :date, :location, :status, :employee, :email)
     end
 
 end
