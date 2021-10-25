@@ -1,24 +1,17 @@
-# README
+REVIVN BACKEND
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This is the Ruby on Rails for Revivn Tracking. In order to view the whole application, you will need revivn-frontend as well.
 
-Things you may want to cover:
 
-* Ruby version
+Instructions:
 
-* System dependencies
+1. First clone down this repositiory to your local desktop and open it with your code editor of choice (i.e. VS Code).
 
-* Configuration
+2. When you are in this repository, check if your Ruby gems are out of date by running "gem outdated". If you also run "gem update" to update all gems.
 
-* Database creation
+3. Run "bundle install" to install all the gems being used.
 
-* Database initialization
+4. Finally run "rails s" or "rails server" to start up this server.  You be able to access the server on http://localhost:3000 which tell you are on Rails.
 
-* How to run the test suite
 
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+You will need REVIVN FRONT in tandem to fully run the application.  You can access it here: https://github.com/jyliu17/revivn-frontend 
