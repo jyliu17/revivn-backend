@@ -14,4 +14,4 @@ Instructions:
 4. Finally run "rails s" or "rails server" to start up this server.  You be able to access the server on http://localhost:3000 which tell you are on Rails.
 
 
-You will need REVIVN FRONT in tandem to fully run the application.  You can access it here: https://github.com/jyliu17/revivn-frontend 
+You will need REVIVN FRONTEND in tandem to fully run the application.  You can access it here: https://github.com/jyliu17/revivn-frontend 
